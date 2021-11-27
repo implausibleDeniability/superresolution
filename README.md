@@ -6,7 +6,8 @@ SRCNN, ESPCNN, EDSR and MDSR (multiscale EDSR), RCAN and MRCAN (multiscale RCAN)
 Models were trained on two datasets, `div2k` dataset for widespread image-resolution problem, and a group of several chest x-rays datasets for medical image super-resolution problem. All results, concerned medical imaging are removed due to NDA.
 
 ## Results
-![Models comparison](images/building_low.png)
+![Models comparison](div2k/results/models_comparison.png)  
+
 High-resolution image is in `div2k/results/models_comparison.png`
 
 You can find the example of models application in **example.ipynb**
