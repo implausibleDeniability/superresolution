@@ -3,7 +3,11 @@ The goal of this project is to research possible super-resolution methods, deter
 
 SRCNN, ESPCNN, EDSR and MDSR (multiscale EDSR), RCAN and MRCAN (multiscale RCAN), and a Sharpening Module are implemented here
 
-Models were trained on two datasets, `div2k` dataset for widespread image-resolution problem, and a group of several chest x-rays datasets for medical image super-resolution problem. There are folders, which contain parameters of trained models, the visualization of results and metrics evaluation for each problem. 
+Models were trained on two datasets, `div2k` dataset for widespread image-resolution problem, and a group of several chest x-rays datasets for medical image super-resolution problem. All results, concerned medical imaging are removed due to NDA.
+
+## Results
+![Models comparison](images/building_low.png)
+High-resolution image is in `div2k/results/models_comparison.png`
 
 You can find the example of models application in **example.ipynb**
 
